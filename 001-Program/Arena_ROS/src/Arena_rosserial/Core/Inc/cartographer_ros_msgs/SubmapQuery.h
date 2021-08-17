@@ -4,8 +4,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include "ros/msg.h"
-#include "cartographer_ros_msgs/SubmapTexture.h"
 #include "cartographer_ros_msgs/StatusResponse.h"
+#include "cartographer_ros_msgs/SubmapTexture.h"
 
 namespace cartographer_ros_msgs
 {

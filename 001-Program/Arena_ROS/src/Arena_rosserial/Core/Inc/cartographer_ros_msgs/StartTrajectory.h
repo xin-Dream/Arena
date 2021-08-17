@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include "ros/msg.h"
 #include "cartographer_ros_msgs/StatusResponse.h"
-#include "cartographer_ros_msgs/TrajectoryOptions.h"
 #include "cartographer_ros_msgs/SensorTopics.h"
+#include "cartographer_ros_msgs/TrajectoryOptions.h"
 
 namespace cartographer_ros_msgs
 {
