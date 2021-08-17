@@ -1,0 +1,99 @@
+Added Component: Designator=*1(STM32F407VGT6)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*2(huidu)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*3(huidu)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*6(PH2.0-L-Z-6P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*9(PH2.0-L-Z-4P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*10(PH2.0-LI-4P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=2(ceju)
+Add component. Clean all parameters for all variants
+Added Component: Designator=3(ceju)
+Add component. Clean all parameters for all variants
+Added Component: Designator=4(ceju)
+Add component. Clean all parameters for all variants
+Added Component: Designator=5(ceju)
+Add component. Clean all parameters for all variants
+Added Component: Designator=6(ceju)
+Add component. Clean all parameters for all variants
+Added Component: Designator=7(ceju)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=*1-2
+Added Pin To Net: NetName=Encode_L2 Pin=*1-9
+Added Pin To Net: NetName=Encode_L1 Pin=*1-10
+Added Pin To Net: NetName=Range4 Pin=*1-12
+Added Pin To Net: NetName=Range2 Pin=*1-14
+Added Pin To Net: NetName=Gray3 Pin=*1-15
+Added Pin To Net: NetName=Gray1 Pin=*1-16
+Added Pin To Net: NetName=Encode_R1 Pin=*1-17
+Added Pin To Net: NetName=Range6 Pin=*1-19
+Added Pin To Net: NetName=Range7 Pin=*1-26
+Added Pin To Net: NetName=Gray2 Pin=*1-29
+Added Pin To Net: NetName=Range1 Pin=*1-30
+Added Pin To Net: NetName=Range3 Pin=*1-31
+Added Pin To Net: NetName=Range5 Pin=*1-33
+Added Pin To Net: NetName=PWM_L1 Pin=*1-52
+Added Pin To Net: NetName=PWM_R1 Pin=*1-53
+Added Pin To Net: NetName=BT_TX Pin=*1-55
+Added Pin To Net: NetName=ICM_RX Pin=*1-61
+Added Pin To Net: NetName=Encode_R2 Pin=*1-70
+Added Pin To Net: NetName=ICM_TX Pin=*1-71
+Added Pin To Net: NetName=BT_RX Pin=*1-78
+Added Pin To Net: NetName=PWM_R2 Pin=*1-79
+Added Pin To Net: NetName=PWM_L2 Pin=*1-80
+Added Pin To Net: NetName=5V Pin=*1-88
+Added Pin To Net: NetName=GND Pin=*2-1
+Added Pin To Net: NetName=5V Pin=*2-2
+Added Pin To Net: NetName=Gray1 Pin=*2-3
+Added Pin To Net: NetName=GND Pin=*3-1
+Added Pin To Net: NetName=5V Pin=*3-2
+Added Pin To Net: NetName=Gray2 Pin=*3-3
+Added Pin To Net: NetName=Net*5_2 Pin=*6-1
+Added Pin To Net: NetName=PWM_L1 Pin=*6-2
+Added Pin To Net: NetName=PWM_L2 Pin=*6-3
+Added Pin To Net: NetName=PWM_R1 Pin=*6-4
+Added Pin To Net: NetName=PWM_R2 Pin=*6-5
+Added Pin To Net: NetName=GND Pin=*6-6
+Added Pin To Net: NetName=5V Pin=*9-1
+Added Pin To Net: NetName=Encode_L1 Pin=*9-2
+Added Pin To Net: NetName=Encode_L2 Pin=*9-3
+Added Pin To Net: NetName=GND Pin=*9-4
+Added Pin To Net: NetName=5V Pin=*10-1
+Added Pin To Net: NetName=Encode_R1 Pin=*10-2
+Added Pin To Net: NetName=Encode_R2 Pin=*10-3
+Added Pin To Net: NetName=GND Pin=*10-4
+Added Pin To Net: NetName=Range2 Pin=2-1
+Added Pin To Net: NetName=GND Pin=2-2
+Added Pin To Net: NetName=5V Pin=2-3
+Added Pin To Net: NetName=Range3 Pin=3-1
+Added Pin To Net: NetName=GND Pin=3-2
+Added Pin To Net: NetName=5V Pin=3-3
+Added Pin To Net: NetName=Range4 Pin=4-1
+Added Pin To Net: NetName=GND Pin=4-2
+Added Pin To Net: NetName=5V Pin=4-3
+Added Pin To Net: NetName=Range5 Pin=5-1
+Added Pin To Net: NetName=GND Pin=5-2
+Added Pin To Net: NetName=5V Pin=5-3
+Added Pin To Net: NetName=Range6 Pin=6-1
+Added Pin To Net: NetName=GND Pin=6-2
+Added Pin To Net: NetName=5V Pin=6-3
+Added Pin To Net: NetName=Range7 Pin=7-1
+Added Pin To Net: NetName=GND Pin=7-2
+Added Pin To Net: NetName=5V Pin=7-3
+Added Member To Class: ClassName=Arena2.0 Member=Component *1 STM32F407VGT6
+Added Member To Class: ClassName=Arena2.0 Member=Component *2 Grayscale
+Added Member To Class: ClassName=Arena2.0 Member=Component *3 Grayscale
+Added Member To Class: ClassName=Arena2.0 Member=Component *6 MOTOR
+Added Member To Class: ClassName=Arena2.0 Member=Component *9 ENCODE
+Added Member To Class: ClassName=Arena2.0 Member=Component *10 ENCODE
+Added Member To Class: ClassName=Arena2.0 Member=Component 2 RANGING
+Added Member To Class: ClassName=Arena2.0 Member=Component 3 RANGING
+Added Member To Class: ClassName=Arena2.0 Member=Component 4 RANGING
+Added Member To Class: ClassName=Arena2.0 Member=Component 5 RANGING
+Added Member To Class: ClassName=Arena2.0 Member=Component 6 RANGING
+Added Member To Class: ClassName=Arena2.0 Member=Component 7 RANGING
+Added Room: Name=Arena2.0

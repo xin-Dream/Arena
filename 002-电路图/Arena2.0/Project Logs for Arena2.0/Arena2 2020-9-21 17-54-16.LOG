@@ -1,0 +1,43 @@
+Added Component: Designator=*5(kaiguan)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*7(bluetooth)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*8(bluetooth)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=5V Pin=*5-3
+Added Pin To Net: NetName=5V Pin=*7-2
+Added Pin To Net: NetName=5V Pin=*8-2
+Added Net: Name=5V
+Added Pin To Net: NetName=BT_RX Pin=*7-5
+Added Net: Name=BT_RX
+Added Pin To Net: NetName=BT_TX Pin=*7-4
+Added Net: Name=BT_TX
+Added Net: Name=Encode_L1
+Added Net: Name=Encode_L2
+Added Net: Name=Encode_R1
+Added Net: Name=Encode_R2
+Added Pin To Net: NetName=GND Pin=*7-3
+Added Pin To Net: NetName=GND Pin=*8-3
+Added Net: Name=GND
+Added Net: Name=Gray1
+Added Net: Name=Gray2
+Added Net: Name=Gray3
+Added Pin To Net: NetName=ICM_RX Pin=*8-5
+Added Net: Name=ICM_RX
+Added Pin To Net: NetName=ICM_TX Pin=*8-4
+Added Net: Name=ICM_TX
+Added Pin To Net: NetName=Net*5_2 Pin=*5-2
+Added Net: Name=Net*5_2
+Added Net: Name=PWM_L1
+Added Net: Name=PWM_L2
+Added Net: Name=PWM_R1
+Added Net: Name=PWM_R2
+Added Net: Name=Range1
+Added Net: Name=Range2
+Added Net: Name=Range3
+Added Net: Name=Range4
+Added Net: Name=Range5
+Added Net: Name=Range6
+Added Net: Name=Range7
+Added Class: Name=Arena2.0
+Added Room: Name=Arena2.0

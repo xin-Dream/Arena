@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=*8-3
+Removed Pin From Net: NetName=ICM_RX Pin=*8-5
+Change Component Footprint: Designator=*8 Old Footprint=bluetooth New Footprint=ICM
+Added Pin To Net: NetName=ICM_RX Pin=*8-3
+Added Pin To Net: NetName=GND Pin=*8-5
+Added Room: Name=Arena2.0

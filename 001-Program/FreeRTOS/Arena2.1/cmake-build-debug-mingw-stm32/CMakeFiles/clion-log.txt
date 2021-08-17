@@ -1,0 +1,5 @@
+"D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/053-gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/053-gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/001-Projects/020-Clion-Stm32WS/002-Arena/Arena/cmake-build-debug-mingw-stm32

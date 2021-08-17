@@ -1,0 +1,13 @@
+Added Component: Designator=*4(huidu)
+Add component. Clean all parameters for all variants
+Added Component: Designator=1(ceju)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=*4-1
+Added Pin To Net: NetName=5V Pin=*4-2
+Added Pin To Net: NetName=Gray3 Pin=*4-3
+Added Pin To Net: NetName=Range1 Pin=1-1
+Added Pin To Net: NetName=GND Pin=1-2
+Added Pin To Net: NetName=5V Pin=1-3
+Added Member To Class: ClassName=Arena2.0 Member=Component *4 Grayscale
+Added Member To Class: ClassName=Arena2.0 Member=Component 1 RANGING
+Added Room: Name=Arena2.0

@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=1 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=2 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=3 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=4 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=5 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=6 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=7 Old Footprint=ceju New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=*2 Old Footprint=huidu New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=*4 Old Footprint=huidu New Footprint=PH2.0-L-Z-3P
+Change Component Footprint: Designator=*3 Old Footprint=huidu New Footprint=PH2.0-LI-3P
+Change Component Footprint: Designator=*10 Old Footprint=PH2.0-LI-4P New Footprint=PH2.0-L-Z-4P
+Added Room: Name=Arena2.0

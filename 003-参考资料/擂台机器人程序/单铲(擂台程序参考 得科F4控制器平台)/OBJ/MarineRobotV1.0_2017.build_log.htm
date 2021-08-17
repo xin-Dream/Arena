@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Faker, 1, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+C:\Users\Faker\Desktop\MarineRobotV1.1程序模板\USER\USART.uvprojx
+Project File Date:  07/19/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'USART'
+compiling ysy.c...
+..\HARDWARE\BEEP\beep.h(12): warning:  #1295-D: Deprecated declaration beepoff - give arg types
+  void beepoff();
+ysy.h(22): warning:  #1-D: last line of file ends without a newline
+  void find_single();
+ysy.h(22): warning:  #1295-D: Deprecated declaration find_single - give arg types
+  void find_single();
+ysy.c(37): warning:  #940-D: missing return statement at end of non-void function "Touch"
+  }
+ysy.c(126): warning:  #223-D: function "AD_Detection" declared implicitly
+                                AD_Detection();
+ysy.c(182): warning:  #111-D: statement is unreachable
+                                
+learScreen();
+ysy.c(179): warning:  #177-D: label "end" was declared but never referenced
+                                end:
+ysy.c(199): warning:  #940-D: missing return statement at end of non-void function "select_high"
+  }
+ysy.c(210): warning:  #223-D: function "get_edge" declared implicitly
+                                if(get_edge()||mseconds()>300)  break;//处?淼?台、??缘???榭?
+ysy.c(221): warning:  #223-D: function "get_edge" declared implicitly
+                                if(get_edge()||mseconds()>400)  break;//处?淼?台、??缘???榭?
+ysy.c(232): warning:  #1-D: last line of file ends without a newline
+  }
+ysy.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=13196 RO-data=424 RW-data=1580 ZI-data=1732  
+FromELF: creating hex file...
+"..\OBJ\MarineRobotV1.0_2017.5" - 0 Error(s), 11 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Faker\Desktop\MarineRobotV1.1程序模板\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
