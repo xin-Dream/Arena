@@ -1,3 +1,0 @@
-E:/001-Projects/020-Clion-Stm32WS/002-Arena/Arena/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir
-E:/001-Projects/020-Clion-Stm32WS/002-Arena/Arena/cmake-build-debug-mingw-stm32/CMakeFiles/edit_cache.dir
-E:/001-Projects/020-Clion-Stm32WS/002-Arena/Arena/cmake-build-debug-mingw-stm32/CMakeFiles/rebuild_cache.dir
