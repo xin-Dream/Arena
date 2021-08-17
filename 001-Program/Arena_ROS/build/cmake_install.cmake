@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dream/Projects/Arena/001-Program/Arena_ROS/build/gtest/cmake_install.cmake")
+  include("/home/dream/Projects/Arena/001-Program/Arena_ROS/build/rosserial_stm32/cmake_install.cmake")
   include("/home/dream/Projects/Arena/001-Program/Arena_ROS/build/display_arena/cmake_install.cmake")
 
 endif()
