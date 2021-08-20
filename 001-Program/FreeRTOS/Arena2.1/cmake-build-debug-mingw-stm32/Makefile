@@ -66,10 +66,10 @@ RM = "D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena
+CMAKE_SOURCE_DIR = E:\001-Projects\001-Arena\Arena\001-Program\FreeRTOS\Arena2.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena\cmake-build-debug-mingw-stm32
+CMAKE_BINARY_DIR = E:\001-Projects\001-Arena\Arena\001-Program\FreeRTOS\Arena2.1\cmake-build-debug-mingw-stm32
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena\cmake-build-debug-mingw-stm32\CMakeFiles E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena\cmake-build-debug-mingw-stm32\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\001-Arena\Arena\001-Program\FreeRTOS\Arena2.1\cmake-build-debug-mingw-stm32\CMakeFiles E:\001-Projects\001-Arena\Arena\001-Program\FreeRTOS\Arena2.1\cmake-build-debug-mingw-stm32\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena\cmake-build-debug-mingw-stm32\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\001-Arena\Arena\001-Program\FreeRTOS\Arena2.1\cmake-build-debug-mingw-stm32\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

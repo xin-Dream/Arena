@@ -61,10 +61,10 @@ RM = "D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial
+CMAKE_SOURCE_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug
+CMAKE_BINARY_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Arena_rosserial.elf.dir/depend.make
@@ -75,288 +75,603 @@ include CMakeFiles/Arena_rosserial.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Arena_rosserial.elf.dir/flags.make
 
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj: ../Core/Src/freertos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\freertos.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\freertos.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\freertos.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\freertos.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\freertos.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\freertos.c.s
+
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\main.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\main.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\main.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\main.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\main.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\main.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\main.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\main.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\main.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\main.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Src/robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\robot.cpp.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\robot.cpp
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\robot.cpp > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\robot.cpp.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\robot.cpp -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\robot.cpp.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: ../Core/Src/stm32f4xx_hal_timebase_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_hal_timebase_tim.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\stm32f4xx_it.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_it.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_it.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\stm32f4xx_it.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_it.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\stm32f4xx_it.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\syscalls.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\syscalls.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\syscalls.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\syscalls.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\syscalls.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\syscalls.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\syscalls.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\syscalls.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\syscalls.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\system_stm32f4xx.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\system_stm32f4xx.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\system_stm32f4xx.c > CMakeFiles\Arena_rosserial.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Core\Src\system_stm32f4xx.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\system_stm32f4xx.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Core\Src\system_stm32f4xx.c -o CMakeFiles\Arena_rosserial.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pcd_ex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c > CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c -o CMakeFiles\Arena_rosserial.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\list.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\Arena_rosserial.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj: ../USB_DEVICE/App/usb_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usb_device.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usb_device.c
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usb_device.c > CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usb_device.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usb_device.c -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usb_device.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj: ../USB_DEVICE/App/usbd_cdc_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usbd_cdc_if.c
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usbd_cdc_if.c > CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usbd_cdc_if.c -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usbd_cdc_if.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: ../USB_DEVICE/App/usbd_desc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usbd_desc.c
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usbd_desc.c > CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usbd_desc.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\App\usbd_desc.c.s
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\Target\usbd_conf.c
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.i"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\Target\usbd_conf.c.i
+
+CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.s"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\Arena_rosserial.elf.dir\USB_DEVICE\Target\usbd_conf.c.s
 
 CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/Arena_rosserial.elf.dir/flags.make
 CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj"
-	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\startup\startup_stm32f407xx.s.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\startup\startup_stm32f407xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj"
+	D:\053-gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Arena_rosserial.elf.dir\startup\startup_stm32f407xx.s.obj -c E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\startup\startup_stm32f407xx.s
 
 # Object files for target Arena_rosserial.elf
 Arena_rosserial_elf_OBJECTS = \
+"CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
@@ -369,6 +684,8 @@ Arena_rosserial_elf_OBJECTS = \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
@@ -376,13 +693,35 @@ Arena_rosserial_elf_OBJECTS = \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
+"CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj" \
 "CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj"
 
 # External object files for target Arena_rosserial.elf
 Arena_rosserial_elf_EXTERNAL_OBJECTS =
 
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj
@@ -395,6 +734,8 @@ Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Dr
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -402,15 +743,34 @@ Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Dr
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/build.make
 Arena_rosserial.elf: CMakeFiles/Arena_rosserial.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable Arena_rosserial.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable Arena_rosserial.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Arena_rosserial.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/001-Projects/001-Arena/Arena/001-Program/Arena_rosserial/cmake-build-debug/Arena_rosserial.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/001-Projects/001-Arena/Arena/001-Program/Arena_rosserial/cmake-build-debug/Arena_rosserial.bin"
-	arm-none-eabi-objcopy -Oihex E:/001-Projects/001-Arena/Arena/001-Program/Arena_rosserial/cmake-build-debug/Arena_rosserial.elf E:/001-Projects/001-Arena/Arena/001-Program/Arena_rosserial/cmake-build-debug/Arena_rosserial.hex
-	arm-none-eabi-objcopy -Obinary E:/001-Projects/001-Arena/Arena/001-Program/Arena_rosserial/cmake-build-debug/Arena_rosserial.elf E:/001-Projects/001-Arena/Arena/001-Program/Arena_rosserial/cmake-build-debug/Arena_rosserial.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/001-Projects/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/001-Projects/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.bin"
+	arm-none-eabi-objcopy -Oihex E:/001-Projects/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.elf E:/001-Projects/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.hex
+	arm-none-eabi-objcopy -Obinary E:/001-Projects/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.elf E:/001-Projects/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/Arena_rosserial.elf.dir/build: Arena_rosserial.elf
@@ -422,6 +782,6 @@ CMakeFiles/Arena_rosserial.elf.dir/clean:
 .PHONY : CMakeFiles/Arena_rosserial.elf.dir/clean
 
 CMakeFiles/Arena_rosserial.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles\Arena_rosserial.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles\Arena_rosserial.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Arena_rosserial.elf.dir/depend
 

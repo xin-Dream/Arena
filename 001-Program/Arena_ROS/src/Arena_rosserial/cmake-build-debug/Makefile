@@ -66,10 +66,10 @@ RM = "D:\049-Clion\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial
+CMAKE_SOURCE_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug
+CMAKE_BINARY_DIR = E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\001-Arena\Arena\001-Program\Arena_rosserial\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\001-Projects\001-Arena\Arena\001-Program\Arena_ROS\src\Arena_rosserial\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,33 @@ Arena_rosserial.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/build
 .PHONY : Arena_rosserial.elf/fast
 
+Core/Src/freertos.obj: Core/Src/freertos.c.obj
+
+.PHONY : Core/Src/freertos.obj
+
+# target to build an object file
+Core/Src/freertos.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj
+.PHONY : Core/Src/freertos.c.obj
+
+Core/Src/freertos.i: Core/Src/freertos.c.i
+
+.PHONY : Core/Src/freertos.i
+
+# target to preprocess a source file
+Core/Src/freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.i
+.PHONY : Core/Src/freertos.c.i
+
+Core/Src/freertos.s: Core/Src/freertos.c.s
+
+.PHONY : Core/Src/freertos.s
+
+# target to generate assembly for a file
+Core/Src/freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.s
+.PHONY : Core/Src/freertos.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 
 .PHONY : Core/Src/main.obj
@@ -168,6 +195,33 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
+Core/Src/robot.obj: Core/Src/robot.cpp.obj
+
+.PHONY : Core/Src/robot.obj
+
+# target to build an object file
+Core/Src/robot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj
+.PHONY : Core/Src/robot.cpp.obj
+
+Core/Src/robot.i: Core/Src/robot.cpp.i
+
+.PHONY : Core/Src/robot.i
+
+# target to preprocess a source file
+Core/Src/robot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.i
+.PHONY : Core/Src/robot.cpp.i
+
+Core/Src/robot.s: Core/Src/robot.cpp.s
+
+.PHONY : Core/Src/robot.s
+
+# target to generate assembly for a file
+Core/Src/robot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.s
+.PHONY : Core/Src/robot.cpp.s
+
 Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
 
 .PHONY : Core/Src/stm32f4xx_hal_msp.obj
@@ -194,6 +248,33 @@ Core/Src/stm32f4xx_hal_msp.s: Core/Src/stm32f4xx_hal_msp.c.s
 Core/Src/stm32f4xx_hal_msp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s
 .PHONY : Core/Src/stm32f4xx_hal_msp.c.s
+
+Core/Src/stm32f4xx_hal_timebase_tim.obj: Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.obj
+
+# target to build an object file
+Core/Src/stm32f4xx_hal_timebase_tim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+
+Core/Src/stm32f4xx_hal_timebase_tim.i: Core/Src/stm32f4xx_hal_timebase_tim.c.i
+
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.i
+
+# target to preprocess a source file
+Core/Src/stm32f4xx_hal_timebase_tim.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.i
+
+Core/Src/stm32f4xx_hal_timebase_tim.s: Core/Src/stm32f4xx_hal_timebase_tim.c.s
+
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.s
+
+# target to generate assembly for a file
+Core/Src/stm32f4xx_hal_timebase_tim.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s
+.PHONY : Core/Src/stm32f4xx_hal_timebase_tim.c.s
 
 Core/Src/stm32f4xx_it.obj: Core/Src/stm32f4xx_it.c.obj
 
@@ -519,6 +600,60 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
@@ -708,6 +843,519 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
+
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/croutine.i: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/croutine.s: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/list.obj: Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/list.i: Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/list.s: Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s: Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/queue.i: Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/queue.s: Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/tasks.i: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/tasks.s: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+
+Middlewares/Third_Party/FreeRTOS/Source/timers.obj: Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.obj
+
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+
+Middlewares/Third_Party/FreeRTOS/Source/timers.i: Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.i
+
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+
+Middlewares/Third_Party/FreeRTOS/Source/timers.s: Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.s
+
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+
+USB_DEVICE/App/usb_device.obj: USB_DEVICE/App/usb_device.c.obj
+
+.PHONY : USB_DEVICE/App/usb_device.obj
+
+# target to build an object file
+USB_DEVICE/App/usb_device.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.c.obj
+
+USB_DEVICE/App/usb_device.i: USB_DEVICE/App/usb_device.c.i
+
+.PHONY : USB_DEVICE/App/usb_device.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usb_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.c.i
+
+USB_DEVICE/App/usb_device.s: USB_DEVICE/App/usb_device.c.s
+
+.PHONY : USB_DEVICE/App/usb_device.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usb_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.c.s
+
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
+
+.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_cdc_if.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
+
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
+
+.PHONY : USB_DEVICE/App/usbd_cdc_if.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_cdc_if.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
+
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
+
+.PHONY : USB_DEVICE/App/usbd_cdc_if.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_cdc_if.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
+
+USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
+
+.PHONY : USB_DEVICE/App/usbd_desc.obj
+
+# target to build an object file
+USB_DEVICE/App/usbd_desc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.c.obj
+
+USB_DEVICE/App/usbd_desc.i: USB_DEVICE/App/usbd_desc.c.i
+
+.PHONY : USB_DEVICE/App/usbd_desc.i
+
+# target to preprocess a source file
+USB_DEVICE/App/usbd_desc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.c.i
+
+USB_DEVICE/App/usbd_desc.s: USB_DEVICE/App/usbd_desc.c.s
+
+.PHONY : USB_DEVICE/App/usbd_desc.s
+
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_desc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.c.s
+
+USB_DEVICE/Target/usbd_conf.obj: USB_DEVICE/Target/usbd_conf.c.obj
+
+.PHONY : USB_DEVICE/Target/usbd_conf.obj
+
+# target to build an object file
+USB_DEVICE/Target/usbd_conf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.c.obj
+
+USB_DEVICE/Target/usbd_conf.i: USB_DEVICE/Target/usbd_conf.c.i
+
+.PHONY : USB_DEVICE/Target/usbd_conf.i
+
+# target to preprocess a source file
+USB_DEVICE/Target/usbd_conf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.c.i
+
+USB_DEVICE/Target/usbd_conf.s: USB_DEVICE/Target/usbd_conf.c.s
+
+.PHONY : USB_DEVICE/Target/usbd_conf.s
+
+# target to generate assembly for a file
+USB_DEVICE/Target/usbd_conf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.c.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -726,12 +1374,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Arena_rosserial.elf
+	@echo ... Core/Src/freertos.obj
+	@echo ... Core/Src/freertos.i
+	@echo ... Core/Src/freertos.s
 	@echo ... Core/Src/main.obj
 	@echo ... Core/Src/main.i
 	@echo ... Core/Src/main.s
+	@echo ... Core/Src/robot.obj
+	@echo ... Core/Src/robot.i
+	@echo ... Core/Src/robot.s
 	@echo ... Core/Src/stm32f4xx_hal_msp.obj
 	@echo ... Core/Src/stm32f4xx_hal_msp.i
 	@echo ... Core/Src/stm32f4xx_hal_msp.s
+	@echo ... Core/Src/stm32f4xx_hal_timebase_tim.obj
+	@echo ... Core/Src/stm32f4xx_hal_timebase_tim.i
+	@echo ... Core/Src/stm32f4xx_hal_timebase_tim.s
 	@echo ... Core/Src/stm32f4xx_it.obj
 	@echo ... Core/Src/stm32f4xx_it.i
 	@echo ... Core/Src/stm32f4xx_it.s
@@ -768,6 +1425,12 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s
@@ -789,6 +1452,63 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i
+	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
+	@echo ... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/croutine.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/croutine.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/list.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/queue.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/tasks.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/tasks.s
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.obj
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.i
+	@echo ... Middlewares/Third_Party/FreeRTOS/Source/timers.s
+	@echo ... USB_DEVICE/App/usb_device.obj
+	@echo ... USB_DEVICE/App/usb_device.i
+	@echo ... USB_DEVICE/App/usb_device.s
+	@echo ... USB_DEVICE/App/usbd_cdc_if.obj
+	@echo ... USB_DEVICE/App/usbd_cdc_if.i
+	@echo ... USB_DEVICE/App/usbd_cdc_if.s
+	@echo ... USB_DEVICE/App/usbd_desc.obj
+	@echo ... USB_DEVICE/App/usbd_desc.i
+	@echo ... USB_DEVICE/App/usbd_desc.s
+	@echo ... USB_DEVICE/Target/usbd_conf.obj
+	@echo ... USB_DEVICE/Target/usbd_conf.i
+	@echo ... USB_DEVICE/Target/usbd_conf.s
 	@echo ... startup/startup_stm32f407xx.obj
 .PHONY : help
 
