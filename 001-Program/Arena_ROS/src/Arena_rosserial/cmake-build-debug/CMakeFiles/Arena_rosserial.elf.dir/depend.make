@@ -1414,9 +1414,31 @@ CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../Middlew
 CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.h
 CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: ../USB_DEVICE/Target/usbd_conf.c
 
+CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/duration.cpp.obj: ../Core/Inc/duration.cpp
+CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/duration.cpp.obj: ../Core/Inc/ros/duration.h
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.obj: ../Core/Inc/ros/duration.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.obj: ../Core/Inc/ros/time.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.obj: ../Core/Inc/time.cpp
+
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/STM32Hardware.h
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/macro.h
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/main.h
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/robot.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/duration.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/msg.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/node_handle.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/publisher.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/service_client.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/service_server.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/subscriber.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/ros/time.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/rosserial_msgs/Log.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/rosserial_msgs/RequestParam.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/rosserial_msgs/TopicInfo.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/std_msgs/String.h
+CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/std_msgs/Time.h
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Core/Inc/stm32f4xx_hal_conf.h
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h

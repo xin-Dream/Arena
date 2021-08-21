@@ -141,6 +141,60 @@ Arena_rosserial.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/build
 .PHONY : Arena_rosserial.elf/fast
 
+Core/Inc/duration.obj: Core/Inc/duration.cpp.obj
+
+.PHONY : Core/Inc/duration.obj
+
+# target to build an object file
+Core/Inc/duration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/duration.cpp.obj
+.PHONY : Core/Inc/duration.cpp.obj
+
+Core/Inc/duration.i: Core/Inc/duration.cpp.i
+
+.PHONY : Core/Inc/duration.i
+
+# target to preprocess a source file
+Core/Inc/duration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/duration.cpp.i
+.PHONY : Core/Inc/duration.cpp.i
+
+Core/Inc/duration.s: Core/Inc/duration.cpp.s
+
+.PHONY : Core/Inc/duration.s
+
+# target to generate assembly for a file
+Core/Inc/duration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/duration.cpp.s
+.PHONY : Core/Inc/duration.cpp.s
+
+Core/Inc/time.obj: Core/Inc/time.cpp.obj
+
+.PHONY : Core/Inc/time.obj
+
+# target to build an object file
+Core/Inc/time.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.obj
+.PHONY : Core/Inc/time.cpp.obj
+
+Core/Inc/time.i: Core/Inc/time.cpp.i
+
+.PHONY : Core/Inc/time.i
+
+# target to preprocess a source file
+Core/Inc/time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.i
+.PHONY : Core/Inc/time.cpp.i
+
+Core/Inc/time.s: Core/Inc/time.cpp.s
+
+.PHONY : Core/Inc/time.s
+
+# target to generate assembly for a file
+Core/Inc/time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arena_rosserial.elf.dir\build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.s
+.PHONY : Core/Inc/time.cpp.s
+
 Core/Src/freertos.obj: Core/Src/freertos.c.obj
 
 .PHONY : Core/Src/freertos.obj
@@ -1374,6 +1428,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Arena_rosserial.elf
+	@echo ... Core/Inc/duration.obj
+	@echo ... Core/Inc/duration.i
+	@echo ... Core/Inc/duration.s
+	@echo ... Core/Inc/time.obj
+	@echo ... Core/Inc/time.i
+	@echo ... Core/Inc/time.s
 	@echo ... Core/Src/freertos.obj
 	@echo ... Core/Src/freertos.i
 	@echo ... Core/Src/freertos.s

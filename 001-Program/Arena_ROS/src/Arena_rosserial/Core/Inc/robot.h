@@ -12,7 +12,8 @@ extern "C" {
 #endif
 
 
-void publishData(void);
+void loop(void);
+void setup(void);
 
 
 #ifdef __cplusplus

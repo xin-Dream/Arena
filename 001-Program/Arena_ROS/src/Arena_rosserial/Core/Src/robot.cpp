@@ -3,22 +3,28 @@
 //
 
 #include "robot.h"
+#include <ros.h>
+#include <std_msgs/String.h>
 
 
-void publishData(void) {
+ros::NodeHandle nh;
+std_msgs::String str_msg;
+ros::Publisher chatter("chatter", &str_msg);
 
-    struct TXProtocol *protocol = new TXProtocol;
+char hello[] = "Hello world!";
 
-    uint8_t ProtocolLen = sizeof(TXProtocol);
-
-    protocol->head0 = FLAG_HEAD0;
-    protocol->head1 = FLAG_HEAD1;
-    protocol->type = TYPE_UPLOAD;
-    protocol->len = ProtocolLen;
-
-    protocol->angular = 10;
-    protocol->velocity = 20;
-
-    protocol->code = FLAG_TAIL;
-
+void setup(void) {
+    nh.initNode();
+    nh.advertise(chatter);
 }
+
+void loop(void) {
+    HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+
+    str_msg.data = hello;
+    chatter.publish(&str_msg);
+    nh.spinOnce();
+
+    HAL_Delay(1000);
+}
+

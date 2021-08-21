@@ -12,527 +12,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee57a8db-9ee0-43d5-9464-826c636b9a41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/macro.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Inc/robot.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/robot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arena_rosserial.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/Arena_rosserial.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/STM32Hardware.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestRequestResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TestResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib/TwoIntsResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_msgs/GoalID.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_msgs/GoalStatus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_msgs/GoalStatusArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/AveragingResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/actionlib_tutorials/FibonacciResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/arbotix_msgs/Analog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/arbotix_msgs/Digital.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/arbotix_msgs/Enable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/arbotix_msgs/Relax.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/arbotix_msgs/SetSpeed.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/arbotix_msgs/SetupChannel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/base_local_planner/Position2DInt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/bond/Constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/bond/Status.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/FinishTrajectory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/LandmarkEntry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/LandmarkList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/SensorTopics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/StartTrajectory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/StatusCode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/StatusResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/SubmapEntry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/SubmapList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/SubmapQuery.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/SubmapTexture.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/TrajectoryOptions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/cartographer_ros_msgs/WriteState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/FollowJointTrajectoryResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommand.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/GripperCommandResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointControllerState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointJog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTolerance.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryControllerState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/JointTrajectoryResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PidState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/PointHeadResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/QueryCalibrationState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/QueryTrajectoryState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_msgs/SingleJointPositionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/control_toolbox/SetPidGains.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/ControllerState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/ControllerStatistics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/ControllersStatistics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/HardwareInterfaceResources.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/ListControllerTypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/ListControllers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/LoadController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/ReloadControllerLibraries.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/SwitchController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/controller_manager_msgs/UnloadController.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/costmap_2d/VoxelGrid.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/diagnostic_msgs/AddDiagnostics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/diagnostic_msgs/DiagnosticArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/diagnostic_msgs/DiagnosticStatus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/diagnostic_msgs/KeyValue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/diagnostic_msgs/SelfTest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/duration.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/BoolParameter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/Config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/ConfigDescription.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/DoubleParameter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/Group.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/GroupState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/IntParameter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/ParamDescription.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/Reconfigure.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/SensorLevels.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/dynamic_reconfigure/StrParameter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ApplyBodyWrench.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ApplyJointEffort.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/BodyRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ContactState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ContactsState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/DeleteLight.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/DeleteModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetJointProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetLightProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetLinkProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetLinkState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetModelProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetModelState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetPhysicsProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/GetWorldProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/JointRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/LinkState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/LinkStates.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ModelState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ModelStates.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ODEJointProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/ODEPhysics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetJointProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetJointTrajectory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetLightProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetLinkProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetLinkState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetModelConfiguration.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetModelState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SetPhysicsProperties.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/SpawnModel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/gazebo_msgs/WorldState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Accel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/AccelStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/AccelWithCovariance.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/AccelWithCovarianceStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Inertia.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/InertiaStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Point.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Point32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/PointStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Polygon.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/PolygonStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Pose.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Pose2D.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/PoseArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/PoseStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/PoseWithCovariance.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/PoseWithCovarianceStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Quaternion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/QuaternionStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Transform.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/TransformStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Twist.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/TwistStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/TwistWithCovariance.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/TwistWithCovarianceStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Vector3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Vector3Stamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/Wrench.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/geometry_msgs/WrenchStamped.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/laser_assembler/AssembleScans.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/laser_assembler/AssembleScans2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/GetMapROI.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/GetPointMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/GetPointMapROI.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/OccupancyGridUpdate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/PointCloud2Update.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/ProjectedMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/ProjectedMapInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/ProjectedMapsInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/SaveMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/map_msgs/SetMapProjections.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/MoveBaseResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/move_base_msgs/RecoveryStatus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetMapResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GetPlan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/GridCells.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/LoadMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/MapMetaData.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/OccupancyGrid.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/Odometry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/Path.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nav_msgs/SetMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/navfn/MakeNavPlan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/navfn/SetCostmap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nodelet/NodeletList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nodelet/NodeletLoad.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/nodelet/NodeletUnload.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/pcl_msgs/ModelCoefficients.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/pcl_msgs/PointIndices.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/pcl_msgs/PolygonMesh.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/pcl_msgs/Vertices.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/polled_camera/GetPolledImage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/duration.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/msg.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/node_handle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/publisher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/service_client.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/service_server.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/subscriber.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/ros/time.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/roscpp/Empty.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/roscpp/GetLoggers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/roscpp/Logger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/roscpp/SetLoggerLevel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/roscpp_tutorials/TwoInts.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosgraph_msgs/Clock.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosgraph_msgs/Log.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosgraph_msgs/TopicStatistics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rospy_tutorials/AddTwoInts.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rospy_tutorials/BadTwoInts.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rospy_tutorials/Floats.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rospy_tutorials/HeaderString.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosserial_msgs/Log.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosserial_msgs/RequestMessageInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosserial_msgs/RequestParam.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosserial_msgs/RequestServiceInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/rosserial_msgs/TopicInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/BatteryState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/CameraInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/ChannelFloat32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/CompressedImage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/FluidPressure.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/Illuminance.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/Image.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/Imu.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/JointState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/Joy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/JoyFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/JoyFeedbackArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/LaserEcho.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/LaserScan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/MagneticField.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/MultiDOFJointState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/MultiEchoLaserScan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/NavSatFix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/NavSatStatus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/PointCloud.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/PointCloud2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/PointField.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/Range.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/RegionOfInterest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/RelativeHumidity.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/SetCameraInfo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/Temperature.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/sensor_msgs/TimeReference.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/shape_msgs/Mesh.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/shape_msgs/MeshTriangle.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/shape_msgs/Plane.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/shape_msgs/SolidPrimitive.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/smach_msgs/SmachContainerInitialStatusCmd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/smach_msgs/SmachContainerStatus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/smach_msgs/SmachContainerStructure.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Bool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Byte.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/ByteMultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Char.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/ColorRGBA.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Duration.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Empty.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Float32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Float32MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Float64.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Float64MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Header.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int16.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int16MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int32MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int64.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int64MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int8.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Int8MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/MultiArrayDimension.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/MultiArrayLayout.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/String.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/Time.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt16.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt16MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt32.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt32MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt64.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt64MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt8.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_msgs/UInt8MultiArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_srvs/Empty.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_srvs/SetBool.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/std_srvs/Trigger.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stereo_msgs/DisparityImage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf/tf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf/transform_broadcaster.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/FrameGraph.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/LookupTransformResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/TF2Error.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/tf2_msgs/TFMessage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/theora_image_transport/Packet.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/time.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/DemuxAdd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/DemuxDelete.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/DemuxList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/DemuxSelect.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/MuxAdd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/MuxDelete.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/MuxList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/topic_tools/MuxSelect.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/trajectory_msgs/JointTrajectory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/trajectory_msgs/JointTrajectoryPoint.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/trajectory_msgs/MultiDOFJointTrajectory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/trajectory_msgs/MultiDOFJointTrajectoryPoint.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeAction.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeActionFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeActionGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeActionResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeGoal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/ShapeResult.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtle_actionlib/Velocity.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/Color.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/Kill.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/Pose.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/SetPen.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/Spawn.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/TeleportAbsolute.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/turtlesim/TeleportRelative.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/ImageMarker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/InteractiveMarker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/InteractiveMarkerControl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/InteractiveMarkerFeedback.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/InteractiveMarkerInit.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/InteractiveMarkerPose.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/InteractiveMarkerUpdate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/Marker.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/MarkerArray.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/visualization_msgs/MenuEntry.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/STM32Hardware.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/STM32Hardware.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/robot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/robot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/ASM.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/startup/startup_stm32f407xx.s.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/002-Arena.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/002-Arena.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/002-Arena.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/002-Arena.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/002-Arena.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/002-Arena.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/ASM.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/algorithm.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/algorithm.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/communication.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/communication.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/freertos.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/freertos.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/macro.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/macro.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/motorControl.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/motorControl.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/oled.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/oled.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/startup/startup_stm32f407xx.s.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/startup/startup_stm32f407xx.s.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -566,11 +78,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Src" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
@@ -583,11 +101,6 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD Arena_rosserial">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Arena_rosserial.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Arena_rosserial" TARGET_NAME="Arena_rosserial.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Arena_rosserial" RUN_TARGET_NAME="Arena_rosserial.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -631,7 +144,8 @@
       <workItem from="1629285756150" duration="6413000" />
       <workItem from="1629337287631" duration="16023000" />
       <workItem from="1629364927550" duration="2019000" />
-      <workItem from="1629426815317" duration="5228000" />
+      <workItem from="1629426815317" duration="15002000" />
+      <workItem from="1629511225894" duration="2704000" />
     </task>
     <servers />
   </component>

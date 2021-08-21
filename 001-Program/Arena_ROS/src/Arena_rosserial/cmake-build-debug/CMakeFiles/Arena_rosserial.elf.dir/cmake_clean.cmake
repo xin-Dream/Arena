@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "Arena_rosserial.elf"
   "Arena_rosserial.elf.manifest"
   "Arena_rosserial.elf.pdb"
+  "CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/duration.cpp.obj"
+  "CMakeFiles/Arena_rosserial.elf.dir/Core/Inc/time.cpp.obj"
   "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.obj"
   "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj"
