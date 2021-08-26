@@ -1,0 +1,22 @@
+Added Component: Designator=IC?(QFP50P1600X1600X160-100N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "STM32F407VGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/stm32f407vgt6/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.st.com/web/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "STM32F407VGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "511-STM32F407VGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32F407VGT6?qs=Z8%252BeY1k3TIKAEQqwbO%2FOzA%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=K?(KEY_2P)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=K?-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC?_1 Pin=K?-2
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=IC?-14
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=PB2/BOOT1 Pin=IC?-37
+Added Net: Name=PB2/BOOT1
+Added Class: Name=controlPanel
+Added Room: Name=controlPanel

@@ -1,10 +1,10 @@
 <package format="2">
-  <name>display_arena2</name>
+  <name>display_arena</name>
   <version>1.0.0</version>
   <description>
-    <p>URDF Description package for display_arena2</p>
+    <p>URDF Description package for display_arena</p>
     <p>This package contains configuration data, 3D models and launch files
-for display_arena2 robot</p>
+for display_arena robot</p>
   </description>
   <author>TODO</author>
   <maintainer email="TODO@email.com" />

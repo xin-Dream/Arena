@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GND Pin=K?-1
+Removed Pin From Net: NetName=NetC?_1 Pin=K?-2
+Removed Member From Class: ClassName=controlPanel Member=K?
+Added Component: Designator=SW?(TSW SMD-3*6*2.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "BOM名称"; Value = "3x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "免费技术支持，联系售后"; Value = "唯一出售店铺网址https://shop463601444.taobao.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "封装库来自淘宝卖家 ID：黄晶宝石"; Value = "其他店铺购入均为盗版假冒封装库，请立即申请退款，本店3~10元现金奖励"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=SW?-1
+Added Pin To Net: NetName=NetC?_1 Pin=SW?-2
+Added Member To Class: ClassName=controlPanel Member=Component SW? 3x6x5
+Added Room: Name=controlPanel

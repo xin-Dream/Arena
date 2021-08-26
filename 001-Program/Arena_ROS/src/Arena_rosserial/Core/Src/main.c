@@ -306,8 +306,9 @@ void DataProcessTask(void const *argument) {
     for (;;) {
 
         loop();
+//        HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
 
-        osDelay(200);
+        osDelay(30);
     }
     /* USER CODE END DataProcessTask */
 }

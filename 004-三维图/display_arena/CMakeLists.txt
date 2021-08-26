@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(display_arena2)
+project(display_arena)
 
 find_package(catkin REQUIRED)
 

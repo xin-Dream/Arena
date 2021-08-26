@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="display_arena">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="1.0217E-05 0.025072 -0.016355"
+        rpy="0 0 0" />
+      <mass
+        value="2.6954" />
+      <inertia
+        ixx="0.0070446"
+        ixy="-2.9178E-07"
+        ixz="1.5967E-07"
+        iyy="0.015528"
+        iyz="-0.00099099"
+        izz="0.010468" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.77647 0.75686 0.73725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="RF_WheelLink">
+    <inertial>
+      <origin
+        xyz="4.5981E-13 1.9621E-13 0.010198"
+        rpy="0 0 0" />
+      <mass
+        value="0.12747" />
+      <inertia
+        ixx="5.5576E-05"
+        ixy="1.1858E-20"
+        ixz="-3.4786E-21"
+        iyy="5.5576E-05"
+        iyz="-2.8041E-20"
+        izz="0.00010367" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/RF_WheelLink.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/RF_WheelLink.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RF_Wheel"
+    type="continuous">
+    <origin
+      xyz="0.094 0.066353 0.017"
+      rpy="1.5708 0.69155 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="RF_WheelLink" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="RB_WheelLink">
+    <inertial>
+      <origin
+        xyz="-0.020198 -3.3936E-13 7.0111E-14"
+        rpy="0 0 0" />
+      <mass
+        value="0.12747" />
+      <inertia
+        ixx="0.00010367"
+        ixy="1.3138E-20"
+        ixz="-1.2278E-21"
+        iyy="5.5576E-05"
+        iyz="3.007E-20"
+        izz="5.5576E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/RB_WheelLink.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/RB_WheelLink.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="RB_Wheel"
+    type="continuous">
+    <origin
+      xyz="0.084 -0.063645 0.017"
+      rpy="1.6466 0 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="RB_WheelLink" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="LF_WheelLink">
+    <inertial>
+      <origin
+        xyz="-0.020198 -7.1808E-11 2.8662E-12"
+        rpy="0 0 0" />
+      <mass
+        value="0.12747" />
+      <inertia
+        ixx="0.00010367"
+        ixy="1.8817E-20"
+        ixz="1.5609E-20"
+        iyy="5.5576E-05"
+        iyz="-6.7763E-20"
+        izz="5.5576E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/LF_WheelLink.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/LF_WheelLink.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LF_Wheel"
+    type="continuous">
+    <origin
+      xyz="-0.084 0.066353 0.017"
+      rpy="0.75862 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="LF_WheelLink" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="LB_WheelLink">
+    <inertial>
+      <origin
+        xyz="0 2.0817E-17 -0.0098022"
+        rpy="0 0 0" />
+      <mass
+        value="0.12747" />
+      <inertia
+        ixx="5.5576E-05"
+        ixy="1.0164E-20"
+        ixz="-1.8434E-21"
+        iyy="5.5576E-05"
+        iyz="-1.1872E-20"
+        izz="0.00010367" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/LB_WheelLink.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/LB_WheelLink.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="LB_Wheel"
+    type="continuous">
+    <origin
+      xyz="-0.114 -0.063645 0.017"
+      rpy="1.5708 0.23741 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="LB_WheelLink" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="L_Range_Link">
+    <inertial>
+      <origin
+        xyz="-2.0351E-05 -0.00018838 0.0053807"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042661" />
+      <inertia
+        ixx="1.08E-07"
+        ixy="1.6467E-11"
+        ixz="6.311E-10"
+        iyy="4.0797E-07"
+        iyz="-1.0722E-10"
+        izz="4.0735E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/L_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/L_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="L_Range"
+    type="fixed">
+    <origin
+      xyz="-0.111 0.0003163 0.028237"
+      rpy="3.1416 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="L_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="R_Range_Link">
+    <inertial>
+      <origin
+        xyz="-2.0351E-05 -0.00018838 0.0053807"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042661" />
+      <inertia
+        ixx="1.08E-07"
+        ixy="1.6467E-11"
+        ixz="6.311E-10"
+        iyy="4.0797E-07"
+        iyz="-1.0722E-10"
+        izz="4.0735E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/R_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/R_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R_Range"
+    type="fixed">
+    <origin
+      xyz="0.111 0.00064079 0.028237"
+      rpy="0 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="R_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="B_Range_Link">
+    <inertial>
+      <origin
+        xyz="-2.0351E-05 -0.00018838 0.0053807"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042661" />
+      <inertia
+        ixx="1.08E-07"
+        ixy="1.6467E-11"
+        ixz="6.311E-10"
+        iyy="4.0797E-07"
+        iyz="-1.0722E-10"
+        izz="4.0735E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/B_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/B_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="B_Range"
+    type="fixed">
+    <origin
+      xyz="0 -0.074061 0.017"
+      rpy="-1.5708 0 -3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="B_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="FL_Range_Link">
+    <inertial>
+      <origin
+        xyz="-2.0351E-05 -0.00018838 0.0053807"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042661" />
+      <inertia
+        ixx="1.08E-07"
+        ixy="1.6467E-11"
+        ixz="6.311E-10"
+        iyy="4.0797E-07"
+        iyz="-1.0722E-10"
+        izz="4.0735E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/FL_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/FL_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FL_Range"
+    type="fixed">
+    <origin
+      xyz="-0.061592 0.070694 0.0405"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="FL_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="FR_Range_Link">
+    <inertial>
+      <origin
+        xyz="-2.0351E-05 -0.00018838 0.0053807"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042661" />
+      <inertia
+        ixx="1.08E-07"
+        ixy="1.6467E-11"
+        ixz="6.311E-10"
+        iyy="4.0797E-07"
+        iyz="-1.0722E-10"
+        izz="4.0735E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/FR_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/FR_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="FR_Range"
+    type="fixed">
+    <origin
+      xyz="0.0535 0.070694 0.0405"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="FR_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="DL_Range_Link">
+    <inertial>
+      <origin
+        xyz="-2.0351E-05 -0.00018838 0.0053807"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042661" />
+      <inertia
+        ixx="1.08E-07"
+        ixy="1.6467E-11"
+        ixz="6.311E-10"
+        iyy="4.0797E-07"
+        iyz="-1.0722E-10"
+        izz="4.0735E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/DL_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/DL_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="DL_Range"
+    type="fixed">
+    <origin
+      xyz="-0.050592 0.086604 0.02691"
+      rpy="3.1416 -0.7854 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="DL_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="DR_Range_Link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/DR_Range_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://display_arena/meshes/DR_Range_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="DR_Range"
+    type="fixed">
+    <origin
+      xyz="0.0645 0.086604 0.02691"
+      rpy="-3.1416 -0.7854 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="DR_Range_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

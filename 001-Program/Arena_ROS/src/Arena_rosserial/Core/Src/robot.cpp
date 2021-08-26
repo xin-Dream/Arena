@@ -11,7 +11,7 @@ ros::NodeHandle nh;
 std_msgs::String str_msg;
 ros::Publisher chatter("chatter", &str_msg);
 
-char hello[] = "Hello world!";
+char hello[] = "Hello stm32!";
 
 void setup(void) {
     nh.initNode();
@@ -25,6 +25,6 @@ void loop(void) {
     chatter.publish(&str_msg);
     nh.spinOnce();
 
-    HAL_Delay(1000);
+    HAL_Delay(100);
 }
 

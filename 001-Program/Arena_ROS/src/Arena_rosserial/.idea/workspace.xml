@@ -7,44 +7,49 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee57a8db-9ee0-43d5-9464-826c636b9a41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/STM32Hardware.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/STM32Hardware.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/robot.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/robot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.c" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.h" beforeDir="false" afterPath="$PROJECT_DIR$/USB_DEVICE/App/usbd_cdc_if.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Arena_rosserial.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/ASM.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usb_device.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/Arena2.0/000-Arena2.0.SLDASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/Arena2.0/000-Arena2.0.SLDASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/Arena2.0/003-合页.SLDASM" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/Arena2.0/003-合页.SLDASM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/config/joint_names_display_arena2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/export.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/export.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/launch/display.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/launch/display.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/launch/gazebo.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/launch/gazebo.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/Baffle_Link.STL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/LB_WheelLink.STL" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/LB_WheelLink.STL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/LF_WheelLink.STL" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/LF_WheelLink.STL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/RB_WheelLink.STL" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/RB_WheelLink.STL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/RF_WheelLink.STL" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/RF_WheelLink.STL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/base_link.STL" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/meshes/base_link.STL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../004-三维图/display_arena/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/urdf/display_arena2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../004-三维图/display_arena/urdf/display_arena2.urdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +94,7 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Core/Src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -117,7 +122,7 @@
       </method>
     </configuration>
     <configuration name="OCD Arena_rosserial" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Arena_rosserial" TARGET_NAME="Arena_rosserial.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Arena_rosserial" RUN_TARGET_NAME="Arena_rosserial.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\001-Projects\020-Clion-Stm32WS\config\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\001-Projects\020-Clion-Stm32WS\config\daplink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger toolchainName="MinGW-STM32" />
       </openocd>
       <method v="2">
@@ -146,6 +151,9 @@
       <workItem from="1629364927550" duration="2019000" />
       <workItem from="1629426815317" duration="15002000" />
       <workItem from="1629511225894" duration="2704000" />
+      <workItem from="1629687009782" duration="1765000" />
+      <workItem from="1629776243190" duration="129000" />
+      <workItem from="1629776384485" duration="1901000" />
     </task>
     <servers />
   </component>
