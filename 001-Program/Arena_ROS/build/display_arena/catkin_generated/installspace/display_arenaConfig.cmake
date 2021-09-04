@@ -67,14 +67,14 @@ set(display_arena_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(display_arena_SOURCE_PREFIX /home/dream/Projects/Arena/001-Program/Arena_ROS/src/display_arena)
-  set(display_arena_DEVEL_PREFIX /home/dream/Projects/Arena/001-Program/Arena_ROS/devel)
+  set(display_arena_SOURCE_PREFIX /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/display_arena)
+  set(display_arena_DEVEL_PREFIX /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel)
   set(display_arena_INSTALL_PREFIX "")
   set(display_arena_PREFIX ${display_arena_DEVEL_PREFIX})
 else()
   set(display_arena_SOURCE_PREFIX "")
   set(display_arena_DEVEL_PREFIX "")
-  set(display_arena_INSTALL_PREFIX /home/dream/Projects/Arena/001-Program/Arena_ROS/install)
+  set(display_arena_INSTALL_PREFIX /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/install)
   set(display_arena_PREFIX ${display_arena_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dream/Projects/Arena/001-Program/Arena_ROS/install/lib;/home/dream/Projects/Arena/001-Program/Arena_ROS/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,0 +1,8 @@
+prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/devel
+
+Name: display_arena
+Description: Description of display_arena
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

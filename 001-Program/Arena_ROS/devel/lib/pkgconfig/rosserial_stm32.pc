@@ -1,4 +1,4 @@
-prefix=/home/dream/Projects/Arena/001-Program/Arena_ROS/devel
+prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel
 
 Name: rosserial_stm32
 Description: Description of rosserial_stm32

@@ -11,7 +11,7 @@ ros::NodeHandle nh;
 std_msgs::String str_msg;
 ros::Publisher chatter("chatter", &str_msg);
 
-char hello[] = "Hello stm32!";
+char hello[] = "Hello GUIXIN ROS stm32!";
 
 void setup(void) {
     nh.initNode();

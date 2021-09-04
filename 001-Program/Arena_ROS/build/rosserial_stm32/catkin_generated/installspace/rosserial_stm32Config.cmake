@@ -67,14 +67,14 @@ set(rosserial_stm32_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosserial_stm32_SOURCE_PREFIX /home/dream/Projects/Arena/001-Program/Arena_ROS/src/rosserial_stm32)
-  set(rosserial_stm32_DEVEL_PREFIX /home/dream/Projects/Arena/001-Program/Arena_ROS/devel)
+  set(rosserial_stm32_SOURCE_PREFIX /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/rosserial_stm32)
+  set(rosserial_stm32_DEVEL_PREFIX /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel)
   set(rosserial_stm32_INSTALL_PREFIX "")
   set(rosserial_stm32_PREFIX ${rosserial_stm32_DEVEL_PREFIX})
 else()
   set(rosserial_stm32_SOURCE_PREFIX "")
   set(rosserial_stm32_DEVEL_PREFIX "")
-  set(rosserial_stm32_INSTALL_PREFIX /home/dream/Projects/Arena/001-Program/Arena_ROS/install)
+  set(rosserial_stm32_INSTALL_PREFIX /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/install)
   set(rosserial_stm32_PREFIX ${rosserial_stm32_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/dream/Projects/Arena/001-Program/Arena_ROS/install/lib;/home/dream/Projects/Arena/001-Program/Arena_ROS/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
