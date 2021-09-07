@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("rosserial_stm32")
 subdirs("realsense-ros/realsense2_description")
+subdirs("robot_vision")
 subdirs("ros_stm32_bridge")
 subdirs("realsense-ros/realsense2_camera")
 subdirs("display_arena")

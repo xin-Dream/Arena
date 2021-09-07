@@ -828,6 +828,12 @@
 		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Inc/nodelet/NodeletUnload.h">
 			<Option target="Arena_rosserial.elf"/>
 		</Unit>
+		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Inc/oled.h">
+			<Option target="Arena_rosserial.elf"/>
+		</Unit>
+		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Inc/oledfont.h">
+			<Option target="Arena_rosserial.elf"/>
+		</Unit>
 		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Inc/pcl_msgs/ModelCoefficients.h">
 			<Option target="Arena_rosserial.elf"/>
 		</Unit>
@@ -1305,7 +1311,13 @@
 		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/freertos.c">
 			<Option target="Arena_rosserial.elf"/>
 		</Unit>
+		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/macro.c">
+			<Option target="Arena_rosserial.elf"/>
+		</Unit>
 		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/main.c">
+			<Option target="Arena_rosserial.elf"/>
+		</Unit>
+		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/oled.c">
 			<Option target="Arena_rosserial.elf"/>
 		</Unit>
 		<Unit filename="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/robot.cpp">

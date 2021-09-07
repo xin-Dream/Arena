@@ -27,10 +27,18 @@ robot.h
 ../Core/Inc/robot.h
 usbd_cdc_if.h
 ../Core/Inc/usbd_cdc_if.h
+oled.h
+../Core/Inc/oled.h
 
 ../Core/Inc/main.h
 stm32f4xx_hal.h
 ../Core/Inc/stm32f4xx_hal.h
+
+../Core/Inc/oled.h
+stdlib.h
+../Core/Inc/stdlib.h
+macro.h
+../Core/Inc/macro.h
 
 ../Core/Inc/robot.h
 macro.h
@@ -161,6 +169,16 @@ ros/msg.h
 ../Core/Inc/std_msgs/ros/msg.h
 ros/time.h
 ../Core/Inc/std_msgs/ros/time.h
+
+../Core/Inc/std_msgs/UInt8.h
+stdint.h
+-
+string.h
+-
+stdlib.h
+-
+ros/msg.h
+../Core/Inc/std_msgs/ros/msg.h
 
 ../Core/Inc/stm32f4xx_hal_conf.h
 stm32f4xx_hal_rcc.h
@@ -520,9 +538,11 @@ stm32f4xx_hal.h
 
 /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/robot.cpp
 robot.h
-/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/Core/Src/robot.h
+-
 ros.h
 -
 std_msgs/String.h
+-
+std_msgs/UInt8.h
 -
 

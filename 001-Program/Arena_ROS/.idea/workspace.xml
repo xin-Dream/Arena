@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="download_extra_data" />
+      <config projectName="Project" targetName="rosserial_stm32_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosserial_stm32_genpy" />
+      <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="rosserial_stm32_generate_messages_cpp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="clean_test_results" />
+      <config projectName="Project" targetName="rosserial_stm32_gencpp" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="gtest" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosserial_stm32_generate_messages" />
+      <config projectName="Project" targetName="gmock_main" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosserial_stm32_generate_messages_nodejs" />
+      <config projectName="Project" targetName="gtest_main" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_py" />
+      <config projectName="Project" targetName="rosserial_stm32_generate_messages_eus" />
+      <config projectName="Project" targetName="rosserial_stm32_generate_messages_py" />
+      <config projectName="Project" targetName="data_sub" />
+      <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="gmock" />
+      <config projectName="Project" targetName="doxygen" />
+      <config projectName="Project" targetName="rosserial_stm32_gennodejs" />
+      <config projectName="Project" targetName="tests" />
+      <config projectName="Project" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="Project" targetName="rosserial_stm32_geneus" />
+      <config projectName="Project" targetName="_catkin_empty_exported_target" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosserial_stm32_genlisp" />
+      <config projectName="Project" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="Project" targetName="rosgraph_msgs_generate_messages_eus" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b46b7ccd-f8a0-4f59-9590-4d4e6f431fc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Arena_ROS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ROS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Inc/oled.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Inc/oledfont.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Src/macro.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Src/oled.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/macro.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robot_vision/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robot_vision/package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robot_vision/src/launch/usb_cam.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/robot_vision/src/scripts/cv_bridge_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ros_stm32_bridge/src/data_pub.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rosserial_stm32/src/ros_lib/examples/led/Src/.mainpp.cpp.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/002-Arena.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-stm32/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CTestTestfile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/atomic_configure/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/atomic_configure/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_generated/generate_cached_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_generated/generate_cached_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_generated/installspace/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_generated/installspace/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_generated/order_packages.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_generated/order_packages.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_generated/order_packages.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_generated/order_packages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_generated/setup_cached.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_generated/setup_cached.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_generated/stamps/Project/_setup_util.py.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_generated/stamps/Project/_setup_util.py.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/catkin_make.cache" beforeDir="false" afterPath="$PROJECT_DIR$/build/catkin_make.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/display_arena/catkin_generated/installspace/display_arenaConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/display_arena/catkin_generated/installspace/display_arenaConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/realsense-ros/realsense2_camera/catkin_generated/installspace/realsense2_cameraConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/realsense-ros/realsense2_camera/catkin_generated/installspace/realsense2_cameraConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/realsense-ros/realsense2_description/catkin_generated/installspace/realsense2_descriptionConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ros_stm32_bridge/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/ros_stm32_bridge/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ros_stm32_bridge/catkin_generated/installspace/ros_stm32_bridgeConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/ros_stm32_bridge/catkin_generated/installspace/ros_stm32_bridgeConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/rosserial_stm32/catkin_generated/installspace/rosserial_stm32Config.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/rosserial_stm32/catkin_generated/installspace/rosserial_stm32Config.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/devel/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/share/display_arena/cmake/display_arenaConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/devel/share/display_arena/cmake/display_arenaConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/devel/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/devel/share/realsense2_description/cmake/realsense2_descriptionConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/share/ros_stm32_bridge/cmake/ros_stm32_bridgeConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/devel/share/ros_stm32_bridge/cmake/ros_stm32_bridgeConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devel/share/rosserial_stm32/cmake/rosserial_stm32Config.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/devel/share/rosserial_stm32/cmake/rosserial_stm32Config.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/Core/Inc/macro.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Inc/macro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/Core/Inc/robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Inc/robot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/Core/Src/robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/Core/Src/robot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.bin" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.elf" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.hex" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arena_rosserial/cmake-build-stm32/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/atomic_configure/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/atomic_configure/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/catkin_generated/generate_cached_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/catkin_generated/generate_cached_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/catkin_generated/stamps/Project/_setup_util.py.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/catkin_generated/stamps/Project/_setup_util.py.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmake-build-debug/devel/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cmake-build-debug/devel/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/Core/Inc/macro.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/Core/Inc/macro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/Core/Src/macro.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/Core/Src/macro.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/Core/Src/oled.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/Core/Src/oled.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1xlcaF221OzPrVuRzvbaoqcjuqY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Arena_ROS" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Arena_ROS" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.data_sub">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_sub" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="data_sub" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="data_sub">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="doxygen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_gencpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_gencpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_generate_messages" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_generate_messages" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_geneus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_geneus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_genlisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_genlisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_gennodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_gennodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosserial_stm32_genpy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="rosserial_stm32_genpy" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="run_tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.clean_test_results" />
+      <item itemvalue="CMake Application.download_extra_data" />
+      <item itemvalue="CMake Application.doxygen" />
+      <item itemvalue="CMake Application.run_tests" />
+      <item itemvalue="CMake Application.tests" />
+      <item itemvalue="CMake Application.data_sub" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_eus" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.roscpp_generate_messages_py" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.std_msgs_generate_messages_py" />
+      <item itemvalue="CMake Application._catkin_empty_exported_target" />
+      <item itemvalue="CMake Application.rosserial_stm32_gencpp" />
+      <item itemvalue="CMake Application.rosserial_stm32_generate_messages" />
+      <item itemvalue="CMake Application.rosserial_stm32_generate_messages_cpp" />
+      <item itemvalue="CMake Application.rosserial_stm32_generate_messages_eus" />
+      <item itemvalue="CMake Application.rosserial_stm32_generate_messages_lisp" />
+      <item itemvalue="CMake Application.rosserial_stm32_generate_messages_nodejs" />
+      <item itemvalue="CMake Application.rosserial_stm32_generate_messages_py" />
+      <item itemvalue="CMake Application.rosserial_stm32_geneus" />
+      <item itemvalue="CMake Application.rosserial_stm32_genlisp" />
+      <item itemvalue="CMake Application.rosserial_stm32_gennodejs" />
+      <item itemvalue="CMake Application.rosserial_stm32_genpy" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b46b7ccd-f8a0-4f59-9590-4d4e6f431fc0" name="Changes" comment="" />
+      <created>1630818442668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630818442668</updated>
+      <workItem from="1630818445502" duration="3209000" />
+      <workItem from="1630933178145" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

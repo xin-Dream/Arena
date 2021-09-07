@@ -5,16 +5,16 @@
 #ifndef ARENA_ROSSERIAL_ROBOT_H
 #define ARENA_ROSSERIAL_ROBOT_H
 
-#include "macro.h"
+
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
+#include "macro.h"
 
 void loop(void);
 void setup(void);
-
 
 #ifdef __cplusplus
 }

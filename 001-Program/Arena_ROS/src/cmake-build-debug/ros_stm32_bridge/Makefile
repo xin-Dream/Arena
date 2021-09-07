@@ -77,15 +77,38 @@ install/strip/fast: preinstall/fast
 	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -107,38 +130,15 @@ test:
 test/fast: test
 .PHONY : test/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -172,214 +172,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+ros_stm32_bridge/CMakeFiles/data_pub.dir/rule:
+	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/data_pub.dir/rule
+.PHONY : ros_stm32_bridge/CMakeFiles/data_pub.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : std_msgs_generate_messages_py
+data_pub: ros_stm32_bridge/CMakeFiles/data_pub.dir/rule
+.PHONY : data_pub
 
 # fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_py.dir/build.make ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_eus: ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_eus
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_eus.dir/build.make ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make ros_stm32_bridge/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_nodejs: ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : roscpp_generate_messages_nodejs
-
-# fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make ros_stm32_bridge/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ros_stm32_bridge/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
+data_pub/fast:
+	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/data_pub.dir/build.make ros_stm32_bridge/CMakeFiles/data_pub.dir/build
+.PHONY : data_pub/fast
 
 # Convenience name for target.
 ros_stm32_bridge/CMakeFiles/data_sub.dir/rule:
@@ -394,6 +198,30 @@ data_sub: ros_stm32_bridge/CMakeFiles/data_sub.dir/rule
 data_sub/fast:
 	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/data_sub.dir/build.make ros_stm32_bridge/CMakeFiles/data_sub.dir/build
 .PHONY : data_sub/fast
+
+src/data_pub.o: src/data_pub.cpp.o
+.PHONY : src/data_pub.o
+
+# target to build an object file
+src/data_pub.cpp.o:
+	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/data_pub.dir/build.make ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o
+.PHONY : src/data_pub.cpp.o
+
+src/data_pub.i: src/data_pub.cpp.i
+.PHONY : src/data_pub.i
+
+# target to preprocess a source file
+src/data_pub.cpp.i:
+	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/data_pub.dir/build.make ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.i
+.PHONY : src/data_pub.cpp.i
+
+src/data_pub.s: src/data_pub.cpp.s
+.PHONY : src/data_pub.s
+
+# target to generate assembly for a file
+src/data_pub.cpp.s:
+	cd /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ros_stm32_bridge/CMakeFiles/data_pub.dir/build.make ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.s
+.PHONY : src/data_pub.cpp.s
 
 src/data_sub.o: src/data_sub.cpp.o
 .PHONY : src/data_sub.o
@@ -432,22 +260,11 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_py"
+	@echo "... data_pub"
 	@echo "... data_sub"
+	@echo "... src/data_pub.o"
+	@echo "... src/data_pub.i"
+	@echo "... src/data_pub.s"
 	@echo "... src/data_sub.o"
 	@echo "... src/data_sub.i"
 	@echo "... src/data_sub.s"

@@ -41,9 +41,12 @@ CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (c
 -- BUILD_SHARED_LIBS is on
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 3 packages in topological order:
+-- ~~  traversing 6 packages in topological order:
 -- ~~  - rosserial_stm32
+-- ~~  - realsense2_description
+-- ~~  - robot_vision
 -- ~~  - ros_stm32_bridge
+-- ~~  - realsense2_camera
 -- ~~  - display_arena
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- +++ processing catkin package: 'rosserial_stm32'
@@ -69,8 +72,33 @@ Call Stack (most recent call first):
 
 
 -- rosserial_stm32: 0 messages, 0 services
+-- +++ processing catkin package: 'realsense2_description'
+-- ==> add_subdirectory(realsense-ros/realsense2_description)
+CMake Deprecation Warning at realsense-ros/realsense2_description/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- +++ processing catkin package: 'robot_vision'
+-- ==> add_subdirectory(robot_vision)
 -- +++ processing catkin package: 'ros_stm32_bridge'
 -- ==> add_subdirectory(ros_stm32_bridge)
+-- +++ processing catkin package: 'realsense2_camera'
+-- ==> add_subdirectory(realsense-ros/realsense2_camera)
+CMake Deprecation Warning at realsense-ros/realsense2_camera/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Create Debug Build.
+-- realsense2_camera: 2 messages, 0 services
 -- +++ processing catkin package: 'display_arena'
 -- ==> add_subdirectory(display_arena)
 CMake Deprecation Warning at display_arena/CMakeLists.txt:1 (cmake_minimum_required):

@@ -1,2 +1,2 @@
-display_arena:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:ros_stm32_bridge:rosserial_stm32
+display_arena:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:robot_vision:ros_stm32_bridge:rosserial_stm32
 -DCATKIN_DEVEL_PREFIX=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/install -G Unix Makefiles

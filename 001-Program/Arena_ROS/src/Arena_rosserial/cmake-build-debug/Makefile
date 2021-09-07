@@ -201,6 +201,30 @@ Core/Src/freertos.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/freertos.c.s
 .PHONY : Core/Src/freertos.c.s
 
+Core/Src/macro.obj: Core/Src/macro.c.obj
+.PHONY : Core/Src/macro.obj
+
+# target to build an object file
+Core/Src/macro.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/macro.c.obj
+.PHONY : Core/Src/macro.c.obj
+
+Core/Src/macro.i: Core/Src/macro.c.i
+.PHONY : Core/Src/macro.i
+
+# target to preprocess a source file
+Core/Src/macro.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/macro.c.i
+.PHONY : Core/Src/macro.c.i
+
+Core/Src/macro.s: Core/Src/macro.c.s
+.PHONY : Core/Src/macro.s
+
+# target to generate assembly for a file
+Core/Src/macro.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/macro.c.s
+.PHONY : Core/Src/macro.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 .PHONY : Core/Src/main.obj
 
@@ -224,6 +248,30 @@ Core/Src/main.s: Core/Src/main.c.s
 Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
+
+Core/Src/oled.obj: Core/Src/oled.c.obj
+.PHONY : Core/Src/oled.obj
+
+# target to build an object file
+Core/Src/oled.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/oled.c.obj
+.PHONY : Core/Src/oled.c.obj
+
+Core/Src/oled.i: Core/Src/oled.c.i
+.PHONY : Core/Src/oled.i
+
+# target to preprocess a source file
+Core/Src/oled.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/oled.c.i
+.PHONY : Core/Src/oled.c.i
+
+Core/Src/oled.s: Core/Src/oled.c.s
+.PHONY : Core/Src/oled.s
+
+# target to generate assembly for a file
+Core/Src/oled.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Arena_rosserial.elf.dir/build.make CMakeFiles/Arena_rosserial.elf.dir/Core/Src/oled.c.s
+.PHONY : Core/Src/oled.c.s
 
 Core/Src/robot.obj: Core/Src/robot.cpp.obj
 .PHONY : Core/Src/robot.obj
@@ -1283,9 +1331,15 @@ help:
 	@echo "... Core/Src/freertos.obj"
 	@echo "... Core/Src/freertos.i"
 	@echo "... Core/Src/freertos.s"
+	@echo "... Core/Src/macro.obj"
+	@echo "... Core/Src/macro.i"
+	@echo "... Core/Src/macro.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
+	@echo "... Core/Src/oled.obj"
+	@echo "... Core/Src/oled.i"
+	@echo "... Core/Src/oled.s"
 	@echo "... Core/Src/robot.obj"
 	@echo "... Core/Src/robot.i"
 	@echo "... Core/Src/robot.s"

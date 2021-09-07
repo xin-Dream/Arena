@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/stm32_pub.dir/src/stm32_pub.cpp.o -o ../devel/lib/ros_stm32_bridge/stm32_pub 

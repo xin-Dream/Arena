@@ -36,7 +36,7 @@ void ParamsInit() {
     __HAL_UART_ENABLE_IT(&huart2, UART_IT_IDLE);
     HAL_UART_Receive_DMA(&huart2, (uint8_t *) uart2_params.receive_buff, BUFFER_SIZE);
 
-    HAL_ADC_Start_DMA(&hadc1, sensors.ADC_Buff, 10);
+    HAL_ADC_Start_DMA(&hadc1, sensors.ADC_Buff, ADC_CHANNEL_NUMBER);
 
     HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_1);
     HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_2);

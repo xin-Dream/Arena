@@ -137,7 +137,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/gtest/cmake_install.cmake")
   include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/rosserial_stm32/cmake_install.cmake")
+  include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/realsense-ros/realsense2_description/cmake_install.cmake")
+  include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/robot_vision/cmake_install.cmake")
   include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/ros_stm32_bridge/cmake_install.cmake")
+  include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/realsense-ros/realsense2_camera/cmake_install.cmake")
   include("/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/display_arena/cmake_install.cmake")
 
 endif()

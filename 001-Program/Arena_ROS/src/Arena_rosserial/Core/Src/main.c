@@ -108,6 +108,8 @@ int main(void) {
     MX_USART2_UART_Init();
     /* USER CODE BEGIN 2 */
 
+    ParamsInit();
+
     /* USER CODE END 2 */
 
     /* USER CODE BEGIN RTOS_MUTEX */
@@ -284,6 +286,8 @@ void StartDefaultTask(void const *argument) {
     /* init code for USB_DEVICE */
     MX_USB_DEVICE_Init();
     /* USER CODE BEGIN 5 */
+
+
 
     /* Infinite loop */
     for (;;) {
