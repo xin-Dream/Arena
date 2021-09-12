@@ -58,6 +58,7 @@ ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/in
 ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/std_msgs/UInt8.h
 ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h

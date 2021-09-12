@@ -9,6 +9,8 @@
 /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/ros_stm32_bridge/src/data_pub.cpp
 ros/ros.h
 /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/ros_stm32_bridge/src/ros/ros.h
+std_msgs/String.h
+/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/ros_stm32_bridge/src/std_msgs/String.h
 std_msgs/UInt8.h
 /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/ros_stm32_bridge/src/std_msgs/UInt8.h
 sstream
@@ -659,6 +661,22 @@ ros/forwards.h
 /opt/ros/melodic/include/ros/ros/forwards.h
 
 /opt/ros/melodic/include/rosconsole/macros_generated.h
+
+/opt/ros/melodic/include/std_msgs/String.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
 
 /opt/ros/melodic/include/std_msgs/UInt8.h
 string

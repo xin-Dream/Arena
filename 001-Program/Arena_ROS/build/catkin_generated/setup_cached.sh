@@ -7,10 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/build'
-export PYTHONPATH="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src:$ROS_PACKAGE_PATH"

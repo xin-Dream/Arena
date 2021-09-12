@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = r''.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
