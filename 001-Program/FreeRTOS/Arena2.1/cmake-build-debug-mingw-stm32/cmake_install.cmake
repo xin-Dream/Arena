@@ -1,4 +1,4 @@
-# Install script for directory: E:/001-Projects/001-Arena/Arena/001-Program/FreeRTOS/Arena2.1
+# Install script for directory: F:/03-Works/003_Events/006_Arena/Arena/001-Program/FreeRTOS/Arena2.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/001-Projects/001-Arena/Arena/001-Program/FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/03-Works/003_Events/006_Arena/Arena/001-Program/FreeRTOS/Arena2.1/cmake-build-debug-mingw-stm32/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

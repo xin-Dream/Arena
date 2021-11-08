@@ -58,7 +58,7 @@ add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR
 add_link_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
 add_link_options(-T ${LINKER_SCRIPT})
 
-add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT} Core/Src/macro.c Core/Inc/macro.h Core/Src/oled.c Core/Inc/oled.h Core/Inc/oledfont.h Core/Src/motorControl.c Core/Inc/motorControl.h Core/Src/communication.c Core/Inc/communication.h Core/Src/algorithm.c Core/Inc/algorithm.h)
+add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT} Core/stm32Library/macro.c Core/stm32Library/macro.h Core/stm32Library/oled.c Core/stm32Library/oled.h Core/stm32Library/oledfont.h Core/stm32Library/motorControl.c Core/stm32Library/motorControl.h Core/stm32Library/communication.c Core/stm32Library/communication.h Core/stm32Library/algorithm.c Core/stm32Library/algorithm.h)
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)

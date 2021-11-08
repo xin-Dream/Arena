@@ -10,149 +10,204 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug-STM32" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="STM32" />
+      <configuration PROFILE_NAME="Debug-MinGW-STM32" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW-STM32" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82f9c24-5b57-4b9f-93bb-a583765a9a71" name="Default Changelist" comment="Arena with freertos 1.1">
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/Arena_ROS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/libraries/ROS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_pub.dir/src/data_pub.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/devel/lib/ros_stm32_bridge/data_pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Inc/oled.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Inc/oledfont.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Src/macro.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Src/oled.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/macro.c.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/robot_vision/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/robot_vision/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/robot_vision/src/launch/usb_cam.launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/robot_vision/src/scripts/cv_bridge_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/ros_stm32_bridge/src/data_pub.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Arena_ROS/src/ros_stm32_bridge/src/stm32_pub.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/002-Arena.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeASMCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-stm32/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/catkin_generated/order_packages.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/catkin_generated/order_packages.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/catkin_make.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/catkin_make.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/CMakeFiles/gmock.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/CMakeFiles/gmock.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/CMakeFiles/gmock_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_eus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_lisp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_nodejs.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_generate_messages_py.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_sub.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/data_sub.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/ros_stm32_bridge/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/build/rosserial_stm32/CMakeFiles/rosserial_stm32_generate_messages_eus.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/build/rosserial_stm32/CMakeFiles/rosserial_stm32_generate_messages_eus.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Inc/macro.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Inc/macro.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Inc/robot.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Inc/robot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Src/robot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/Core/Src/robot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/Arena_rosserial.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Arena_rosserial.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.elf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.map" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Arena_rosserial.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/Core/Src/robot.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Arena_rosserial.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/Arena_rosserial/cmake-build-stm32/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/atomic_configure/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/atomic_configure/_setup_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/catkin_generated/generate_cached_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/catkin_generated/generate_cached_setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/catkin_generated/stamps/Project/_setup_util.py.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/catkin_generated/stamps/Project/_setup_util.py.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/devel/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/cmake-build-debug/devel/_setup_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Arena_ROS/src/ros_stm32_bridge/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arena_ROS/src/ros_stm32_bridge/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Raspberry/ArenaVisual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Raspberry/MicroSerial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Raspberry/serialTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Raspberry/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/macro.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/macro.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/macro.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/macro.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/oled.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/oled.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/002-Arena.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/002-Arena.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/algorithm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/communication.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/macro.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/motorControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/oled.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/oledfont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/algorithm.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/communication.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/macro.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/motorControl.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/oled.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/algorithm.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/algorithm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/algorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/communication.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/communication.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/macro.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/macro.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/macro.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/macro.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/motorControl.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/motorControl.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/motorControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/motorControl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/oled.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/oled.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/stm32Library/oled.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/stm32Library/oled.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/002-Arena.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/ASM.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/algorithm.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/communication.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/freertos.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/freertos.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/macro.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/motorControl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/oled.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/startup/startup_stm32f407xx.s.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/002-Arena.elf.dir/startup/startup_stm32f407xx.s.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/002-Arena.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/002-Arena.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/002-Arena.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/002-Arena.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/002-Arena.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/ASM.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/algorithm.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/communication.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/freertos.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/macro.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/main.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/motorControl.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/oled.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Core/Src/system_stm32f4xx.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/002-Arena.elf.dir/startup/startup_stm32f407xx.s.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeASMCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-stm32/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../002-电路图/Arena2.0/Arena2.0.PrjPCBStructure" beforeDir="false" afterPath="$PROJECT_DIR$/../../../002-电路图/Arena2.0/Arena2.0.PrjPCBStructure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../002-电路图/Arena3.0/Arena_Project/Arena_Project.PrjPcb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../002-电路图/Arena3.0/Arena_Project/Arena_Project.PrjPcb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../002-电路图/Arena3.0/Arena_Project/Arena_Project.PrjPcbStructure" beforeDir="false" afterPath="$PROJECT_DIR$/../../../002-电路图/Arena3.0/Arena_Project/Arena_Project.PrjPcbStructure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../003-参考资料/论文/基于运动动力学武术擂台机器人攻防控制研究_陈昊.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../003-参考资料/论文/武术擂台机器人结构与竞技策略的创新设计_宋博飞.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../003-参考资料/论文/非标准武术擂台机器人的研究与设计_马双琪.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +217,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-STM32" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW-STM32" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -190,32 +245,28 @@
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\001-Projects\001-Arena\Arena\001-Program\FreeRTOS\Arena2.1\Core\stm32Library" />
       <recent name="E:\001-Projects\020-Clion-Stm32WS\002-Arena\Arena\Core\Inc" />
       <recent name="E:\001-Projects\020-Clion-Stm32WS\002-Arena\Core\Inc" />
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD 002-Arena">
+    <configuration name="002-Arena.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="002-Arena" TARGET_NAME="002-Arena.elf" CONFIG_NAME="Debug-MinGW-STM32" RUN_TARGET_PROJECT_NAME="002-Arena" RUN_TARGET_NAME="002-Arena.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
-    <configuration name="002-Arena.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="002-Arena" TARGET_NAME="002-Arena.elf" CONFIG_NAME="Debug-STM32" RUN_TARGET_PROJECT_NAME="002-Arena" RUN_TARGET_NAME="002-Arena.elf">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OCD 002-Arena" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="002-Arena" TARGET_NAME="002-Arena.elf" CONFIG_NAME="Debug-STM32" version="1" RUN_TARGET_PROJECT_NAME="002-Arena" RUN_TARGET_NAME="002-Arena.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="$APPLICATION_HOME_DIR$/config/daplink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+    <configuration name="OCD 002-Arena" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="002-Arena" TARGET_NAME="002-Arena.elf" CONFIG_NAME="Debug-MinGW-STM32" version="1" RUN_TARGET_PROJECT_NAME="002-Arena" RUN_TARGET_NAME="002-Arena.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="F:\04-Study\008_配置文件\Clion_config\daplink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
       <method v="2">
@@ -264,6 +315,31 @@
       <workItem from="1630902965234" duration="2655000" />
       <workItem from="1630913439794" duration="6386000" />
       <workItem from="1630928862581" duration="2790000" />
+      <workItem from="1631447976727" duration="675000" />
+      <workItem from="1632309315641" duration="399000" />
+      <workItem from="1633768314510" duration="3563000" />
+      <workItem from="1633783685042" duration="3578000" />
+      <workItem from="1633834251823" duration="733000" />
+      <workItem from="1633835000051" duration="1945000" />
+      <workItem from="1634545421623" duration="2230000" />
+      <workItem from="1634552552323" duration="6694000" />
+      <workItem from="1634618776128" duration="1467000" />
+      <workItem from="1634632260332" duration="1000" />
+      <workItem from="1634639878170" duration="3107000" />
+      <workItem from="1634884779453" duration="1564000" />
+      <workItem from="1634901139062" duration="4824000" />
+      <workItem from="1634972042530" duration="600000" />
+      <workItem from="1635063118986" duration="1884000" />
+      <workItem from="1635073850659" duration="4866000" />
+      <workItem from="1635142267804" duration="7790000" />
+      <workItem from="1635214738956" duration="2504000" />
+      <workItem from="1635239600884" duration="3129000" />
+      <workItem from="1635252657841" duration="2767000" />
+      <workItem from="1635384752347" duration="5308000" />
+      <workItem from="1635423622101" duration="6076000" />
+      <workItem from="1635474175598" duration="16053000" />
+      <workItem from="1635568853061" duration="748000" />
+      <workItem from="1636268951671" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="Arena with freertos 1.1">
       <created>1623380345678</created>

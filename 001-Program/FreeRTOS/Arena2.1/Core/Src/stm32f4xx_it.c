@@ -24,7 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include "macro.h"
+#include "../stm32Library/macro.h"
 
 /* USER CODE END Includes */
 

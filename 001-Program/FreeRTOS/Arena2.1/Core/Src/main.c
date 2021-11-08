@@ -24,7 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
-#include "macro.h"
+#include "../stm32Library/macro.h"
 
 /* USER CODE END Includes */
 
@@ -59,13 +59,13 @@ DMA_HandleTypeDef hdma_usart2_tx;
 
 osThreadId Perception_taskHandle;
 osThreadId OLED_taskHandle;
-osThreadId Motor_TaskHandle;
-osThreadId Sense_taskHandle;
 osThreadId Decision_taskHandle;
+osThreadId Execute_taskHandle;
 /* USER CODE BEGIN PV */
 
 extern Sensor_TypeDef sensors;
 extern Motor_TypeDef motor;
+extern Serial_TypeDef serial;
 
 /* USER CODE END PV */
 
@@ -92,11 +92,9 @@ void Perception_function(void const *argument);
 
 void OLED_function(void const *argument);
 
-void Motor_function(void const *argument);
-
-void Sense_function(void const *argument);
-
 void Decision_function(void const *argument);
+
+void Execute_function(void const *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -165,24 +163,20 @@ int main(void) {
 
     /* Create the thread(s) */
     /* definition and creation of Perception_task */
-    osThreadDef(Perception_task, Perception_function, osPriorityHigh, 0, 128);
+    osThreadDef(Perception_task, Perception_function, osPriorityRealtime, 0, 128);
     Perception_taskHandle = osThreadCreate(osThread(Perception_task), NULL);
 
     /* definition and creation of OLED_task */
     osThreadDef(OLED_task, OLED_function, osPriorityNormal, 0, 128);
     OLED_taskHandle = osThreadCreate(osThread(OLED_task), NULL);
 
-    /* definition and creation of Motor_Task */
-    osThreadDef(Motor_Task, Motor_function, osPriorityAboveNormal, 0, 128);
-    Motor_TaskHandle = osThreadCreate(osThread(Motor_Task), NULL);
-
-    /* definition and creation of Sense_task */
-    osThreadDef(Sense_task, Sense_function, osPriorityRealtime, 0, 128);
-    Sense_taskHandle = osThreadCreate(osThread(Sense_task), NULL);
-
     /* definition and creation of Decision_task */
-    osThreadDef(Decision_task, Decision_function, osPriorityAboveNormal, 0, 128);
+    osThreadDef(Decision_task, Decision_function, osPriorityHigh, 0, 128);
     Decision_taskHandle = osThreadCreate(osThread(Decision_task), NULL);
+
+    /* definition and creation of Execute_task */
+    osThreadDef(Execute_task, Execute_function, osPriorityAboveNormal, 0, 128);
+    Execute_taskHandle = osThreadCreate(osThread(Execute_task), NULL);
 
     /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
@@ -636,10 +630,15 @@ void Perception_function(void const *argument) {
     //感知层
 
     /* Infinite loop */
+
     for (;;) {
-        sensors.motion_flag = direction_judge(sensors.Range_around);
+//        encode_read(htim1, htim2);
+        ADCpartition();
+        sensors.UnderDir = direction_judge(sensors.Range_around, 0);
+
         osDelay(100);
     }
+
     /* USER CODE END 5 */
 }
 
@@ -660,46 +659,6 @@ void OLED_function(void const *argument) {
     /* USER CODE END OLED_function */
 }
 
-/* USER CODE BEGIN Header_Motor_function */
-/**
-* @brief Function implementing the Motor_Task thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_Motor_function */
-void Motor_function(void const *argument) {
-    /* USER CODE BEGIN Motor_function */
-    /* Infinite loop */
-    for (;;) {
-        remoteControl();
-
-        osDelay(100);
-    }
-    /* USER CODE END Motor_function */
-}
-
-/* USER CODE BEGIN Header_Sense_function */
-/**
-* @brief Function implementing the Sense_task thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_Sense_function */
-void Sense_function(void const *argument) {
-    /* USER CODE BEGIN Sense_function */
-
-    //传感层
-
-    /* Infinite loop */
-    for (;;) {
-        encode_read(htim1, htim2);
-        ADCpartition();
-
-        osDelay(100);
-    }
-    /* USER CODE END Sense_function */
-}
-
 /* USER CODE BEGIN Header_Decision_function */
 /**
 * @brief Function implementing the Decision_task thread.
@@ -712,13 +671,43 @@ void Decision_function(void const *argument) {
 
     //决策层
 
+    //登台开始
+//    startBattle();
+
     /* Infinite loop */
     for (;;) {
-        if (motor.motion_flag == start_judge)
-            judge();
-        osDelay(50);
+        motor.motion_flag = stop;
+
+//
+//        // 回安全区
+//        back();
+
+        osDelay(100);
+
     }
     /* USER CODE END Decision_function */
+}
+
+/* USER CODE BEGIN Header_Execute_function */
+/**
+* @brief Function implementing the Execute_task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_Execute_function */
+void Execute_function(void const *argument) {
+    /* USER CODE BEGIN Execute_function */
+    /* Infinite loop */
+
+    // 执行层
+
+    for (;;) {
+//        remoteControl();
+//        carMove(motor.motion_flag);
+
+        osDelay(100);
+    }
+    /* USER CODE END Execute_function */
 }
 
 /**
