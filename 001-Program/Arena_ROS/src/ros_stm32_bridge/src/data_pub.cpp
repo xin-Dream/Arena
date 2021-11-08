@@ -2,13 +2,14 @@
 // Created by dream on 2021/9/6.
 //
 #include "ros/ros.h"
+#include "std_msgs/String.h"
 #include "std_msgs/UInt8.h"
 #include "sstream"
 
-int main(int argc,char *argv[]){
+int main(int argc, char *argv[]) {
     setlocale(LC_ALL, "");
 
-    ros::init(argc, argv, "ergouzi");
+    ros::init(argc, argv, "talker");
     ros::NodeHandle nh;
     ros::Publisher pub = nh.advertise<std_msgs::UInt8>("oled_show", 10);
 
@@ -19,15 +20,16 @@ int main(int argc,char *argv[]){
 
     int count = 0;
 
-    while (ros::ok){
+    while (ros::ok) {
         count++;
 
         std::stringstream ss;
-        ss<< count;
-        msg.data=ss.get();
+        ss << count;
+
+        msg.data = ss.get();
 
         pub.publish(msg);
-        ROS_INFO("发布的数据是: %d",count);
+        ROS_INFO("发布的数据是: %d", msg.data);
 
         rate.sleep();
 

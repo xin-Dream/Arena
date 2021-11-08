@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="rosserial_python" type="serial_node.py" name="rosserial_python">
+        <param name="port" type="string" value="/dev/stm32"/>
+    </node>
+    
+    <node pkg="ros_stm32_bridge" type="data_pub" name="ros_data_pub"/>
+    
+</launch>

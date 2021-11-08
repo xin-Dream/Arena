@@ -140,8 +140,6 @@ int main(void) {
     /* USER CODE BEGIN RTOS_THREADS */
     /* add threads, ... */
 
-    setup();
-
     /* USER CODE END RTOS_THREADS */
 
     /* Start scheduler */
@@ -306,10 +304,13 @@ void StartDefaultTask(void const *argument) {
 void DataProcessTask(void const *argument) {
     /* USER CODE BEGIN DataProcessTask */
 
+
     /* Infinite loop */
     for (;;) {
 
         loop();
+
+        OLED_Refresh_Gram();
 //        HAL_GPIO_TogglePin(LED_GPIO_Port,LED_Pin);
 
         osDelay(30);

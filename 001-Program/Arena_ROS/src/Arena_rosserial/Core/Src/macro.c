@@ -17,6 +17,8 @@ extern UART_HandleTypeDef huart2;
 
 void ParamsInit() {
     OLED_Init();
+
+    setup();
 }
 
 

@@ -1,7 +1,6 @@
 /home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src
 -- Using CATKIN_DEVEL_PREFIX: /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/devel
--- Using CMAKE_PREFIX_PATH: /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel;/opt/ros/melodic
--- This workspace overlays: /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel;/opt/ros/melodic
+-- Using CMAKE_PREFIX_PATH: 
 -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python2
 -- Using Debian Python package layout
@@ -39,76 +38,20 @@ CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:48 (c
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.7.29
 -- BUILD_SHARED_LIBS is on
--- BUILD_SHARED_LIBS is on
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 6 packages in topological order:
--- ~~  - rosserial_stm32
--- ~~  - realsense2_description
--- ~~  - robot_vision
--- ~~  - ros_stm32_bridge
--- ~~  - realsense2_camera
--- ~~  - display_arena
--- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- +++ processing catkin package: 'rosserial_stm32'
--- ==> add_subdirectory(rosserial_stm32)
-CMake Deprecation Warning at rosserial_stm32/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
--- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
-CMake Warning at cmake-build-debug/rosserial_stm32/cmake/rosserial_stm32-genmsg.cmake:3 (message):
-  Invoking generate_messages() without having added any message or service
-  file before.
-
-  You should either add add_message_files() and/or add_service_files() calls
-  or remove the invocation of generate_messages().
+Traceback (most recent call last):
+  File "/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/catkin_generated/generate_cached_setup.py", line 20, in <module>
+    from catkin.environment_cache import generate_environment_script
+ImportError: No module named catkin.environment_cache
+CMake Error at /opt/ros/melodic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+  execute_process(/usr/bin/python2
+  "/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/catkin_generated/generate_cached_setup.py")
+  returned error code 1
 Call Stack (most recent call first):
-  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
-  rosserial_stm32/CMakeLists.txt:69 (generate_messages)
+  /opt/ros/melodic/share/catkin/cmake/all.cmake:208 (safe_execute_process)
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:58 (find_package)
 
 
--- rosserial_stm32: 0 messages, 0 services
--- +++ processing catkin package: 'realsense2_description'
--- ==> add_subdirectory(realsense-ros/realsense2_description)
-CMake Deprecation Warning at realsense-ros/realsense2_description/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
--- +++ processing catkin package: 'robot_vision'
--- ==> add_subdirectory(robot_vision)
--- +++ processing catkin package: 'ros_stm32_bridge'
--- ==> add_subdirectory(ros_stm32_bridge)
--- +++ processing catkin package: 'realsense2_camera'
--- ==> add_subdirectory(realsense-ros/realsense2_camera)
-CMake Deprecation Warning at realsense-ros/realsense2_camera/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
--- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
--- Create Debug Build.
--- realsense2_camera: 2 messages, 0 services
--- +++ processing catkin package: 'display_arena'
--- ==> add_subdirectory(display_arena)
-CMake Deprecation Warning at display_arena/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
--- Configuring done
--- Generating done
--- Build files have been written to: /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug
+-- Configuring incomplete, errors occurred!
+See also "/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/cmake-build-debug/CMakeFiles/CMakeError.log".
