@@ -1,5 +1,0 @@
-/home/dream/002-software/001-CLion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/dream/002-software/005-gcc-arm-none-eabi/gcc-arm-none-eabi-10.3-2021.07/bin/arm-none-eabi-gcc -DCMAKE_CXX_COMPILER=/home/dream/002-software/005-gcc-arm-none-eabi/gcc-arm-none-eabi-10.3-2021.07/bin/arm-none-eabi-g++ -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial
--- Minimal optimization, debug info included
--- Configuring done
--- Generating done
--- Build files have been written to: /home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/src/Arena_rosserial/cmake-build-stm32
