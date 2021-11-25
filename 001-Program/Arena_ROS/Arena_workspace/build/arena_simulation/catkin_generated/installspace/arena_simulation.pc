@@ -1,8 +1,0 @@
-prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/install
-
-Name: arena_simulation
-Description: Description of arena_simulation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/install
-
-Name: robot_vision
-Description: Description of robot_vision
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

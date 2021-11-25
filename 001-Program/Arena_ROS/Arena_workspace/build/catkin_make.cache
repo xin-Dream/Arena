@@ -1,2 +1,0 @@
-arena_model:arena_simulation:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:robot_vision:ros_pyqt_gui:ros_stm32_bridge:rosserial_stm32
--DCATKIN_DEVEL_PREFIX=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/install -G Unix Makefiles

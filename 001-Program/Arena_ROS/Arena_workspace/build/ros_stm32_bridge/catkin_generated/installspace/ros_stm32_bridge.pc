@@ -1,8 +1,0 @@
-prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/install
-
-Name: ros_stm32_bridge
-Description: Description of ros_stm32_bridge
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs message_runtime
