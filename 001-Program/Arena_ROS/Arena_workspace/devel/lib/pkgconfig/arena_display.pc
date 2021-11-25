@@ -1,0 +1,8 @@
+prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/devel
+
+Name: arena_display
+Description: Description of arena_display
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

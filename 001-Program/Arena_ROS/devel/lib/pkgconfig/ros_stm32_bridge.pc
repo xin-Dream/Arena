@@ -1,8 +1,0 @@
-prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/devel
-
-Name: ros_stm32_bridge
-Description: Description of ros_stm32_bridge
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

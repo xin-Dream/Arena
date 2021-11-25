@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: ros_stm32_bridge
-Description: Description of ros_stm32_bridge
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

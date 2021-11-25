@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find arena_simulation)/launch/arena2gazebo.launch"/>
+    <include file="$(find arena_simulation)/launch/arena2rviz.launch"/>
+
+    <node pkg="ros_pyqt_gui" type="turtle_ctrl.py" name="arena_ctrl_node" output="screen" />
+</launch>

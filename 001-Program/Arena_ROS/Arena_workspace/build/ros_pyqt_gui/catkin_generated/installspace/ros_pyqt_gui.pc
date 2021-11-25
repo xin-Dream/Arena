@@ -1,0 +1,8 @@
+prefix=/home/dream/001-data/001-Arena/Arena/001-Program/Arena_ROS/Arena_workspace/install
+
+Name: ros_pyqt_gui
+Description: Description of ros_pyqt_gui
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
